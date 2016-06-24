@@ -168,7 +168,7 @@ var Bloodhound = (function() {
     },
 
     clear: function clear() {
-      // this.index.reset(); /**** temporarily comment out KEN
+      this.index.reset();
       return this;
     },
 

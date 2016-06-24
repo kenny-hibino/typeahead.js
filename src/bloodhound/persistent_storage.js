@@ -99,11 +99,11 @@ var PersistentStorage = (function() {
     },
 
     clear: function() {
-      var i, keys = gatherMatchingKeys(this.keyMatcher);
+      // var i, keys = gatherMatchingKeys(this.keyMatcher);
 
-      for (i = keys.length; i--;) {
-        this.remove(keys[i]);
-      }
+      // for (i = keys.length; i--;) {
+      //   this.remove(keys[i]);
+      // }
 
       return this;
     },
