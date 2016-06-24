@@ -115,6 +115,7 @@ var Bloodhound = (function() {
     // ### public
 
     initialize: function initialize(force) {
+      console.log('helloooooooooooo')
       return !this.initPromise || force ? this._initialize() : this.initPromise;
     },
 
